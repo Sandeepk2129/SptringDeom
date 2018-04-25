@@ -8,6 +8,7 @@ public class Student {
 	private String lastName;
 	private String country;
 	private String favLanguage;
+	private String[] operatingSystem;
 	//Reading countries from property file
 //	private LinkedHashMap<String, String> countryOption;
 	public Student(){
@@ -50,6 +51,14 @@ public class Student {
 
 	public void setFavLanguage(String favLanguage) {
 		this.favLanguage = favLanguage;
+	}
+
+	public String[] getOperatingSystem() {
+		return operatingSystem;
+	}
+
+	public void setOperatingSystem(String[] operatingSystem) {
+		this.operatingSystem = operatingSystem;
 	}
 
 //	public LinkedHashMap<String, String> getCountryOption() {

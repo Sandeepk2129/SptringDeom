@@ -30,7 +30,12 @@
 	Python <form:radiobutton path="favLanguage" value="Python"/>
 	
 	<br><br>
-	
+
+	Select Familar OS
+	Linux <form:checkbox path="operatingSystem" value = "Linux"/>
+	Mac OS <form:checkbox path="operatingSystem" value = "Mac OS"/>
+	Windows <form:checkbox path="operatingSystem" value = "Windows"/>
+	<br> <br>
 	<input type="submit" value="Submit"/>
 	
 	
